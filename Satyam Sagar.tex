@@ -1,0 +1,262 @@
+%------------------------
+% Resume Template
+% Author : Satyam Sagar
+% Github : https://github.com/satyamrs00
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    {\vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{{\LARGE Satyam Sagar}} & Email:~~\href{mailto:}{satyamsagar1711@gmail.com}\\
+    \href{https://satyamrs00.github.io}{Portfolio:~~satyamrs00.github.io} & Mobile:~~+91 979 8581 008 \\
+    \href{https://github.com/satyamrs00}{Github:~~satyamrs00} &  \href{https://linkedin.com/in/satyamrs00}{LinkedIn:~~satyamrs00}\\
+    \href{https://codechef.com/users/satyamrs00}{Codechef:~~satyamrs00} &
+    \href{https://leetcode.com/satyamrs00}{Leetcode:~~satyamrs00}\\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading{Indian Institute of Information Technology}{Bhopal, India}
+      {Bachelor of Technology - Information Technology;  GPA: 9.48/10}{December 2021 - June 2025}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Data Structures and Algorithms, Object Oriented Programming}}}
+      %, Operating Systems,  Artificial Intelligence, Machine Learning, Networking, Databases
+\resumeSubHeadingListEnd
+	    
+\vspace{-5pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+	\resumeSubItem{Languages}{~~~~~~Python, JavaScript, SQL, Bash, C, C++, HTML, CSS}
+	\resumeSubItem{Frameworks}{~~~~Django, Flask, React, Redux}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Git, PostgreSQL, SQLite, Postman, MongoDB, }
+	\resumeSubItem{Platforms}{~~~~~~~Linux, Web, Windows, Heroku, GCP, DigitalOcean}
+	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Event Management}
+
+\resumeSubHeadingListEnd
+\vspace{-5pt}
+\section{Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading{JDMR iSCHOOL}{October 2022 - present}
+    {Web Developer Intern}{Remote}
+    \begin{description}[font=$\bullet$]
+		\item {Teamed with 1 person to build a web application from scratch to get user details to facilitate services.}
+		\vspace{-3pt}
+		\item {Developed and maintained the website of the company including various bug fixes and feature updates.}
+		\vspace{-3pt}
+		\item {Developed feature to use Google OAuth 2.0 to sign up to the application.}
+		\vspace{-3pt}
+		\item {Deployed the former application using DigitalOcean with Nginx server and the later on Heroku hobby plan.}
+		% \item {Python, Django, PostgreSQL, HTML, CSS, JavaScript}
+    \end{description}
+    % \resumeItemListStart
+    %     \resumeItem{Chunav Campaigner}
+    %     {Developed and deployed on DigitalOcean this website that provides services to help parties/candidates during elections.}
+    %     \resumeItem{Smart Bachche}
+    %     {Helped develop and manage this website that simplifies the school search, application and enrollment process.}
+    %     %   \resumeItem{Ratchet PHP WebSocket}{Implemented a WebSocket for low-latency real time exchange of posts and thread updates.}
+    % \resumeItemListEnd
+% \vspace{-5pt}
+%     \resumeSubheading
+% 		{DataCamp Inc.}{Remote}
+% 		{Instructor (Part-time, Contractual)}{Dec 2018 -  Present}
+% 		\resumeItemListStart
+%         \resumeItem{Project Course - Find Movie Similarity from Plot Summaries}
+%           {Created project based course using Unsupervised learning and natural language processing.}
+%         \resumeItem{Tutorial - Introduction to Reinforcement Learning}
+%           {Created tutorial for Q-learning RL algorithm and  concepts.}
+%         \resumeItem{Impact}{Course has been taken by 250+ students so far with 4.65 average rating.}
+% 		\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+\resumeSubHeadingListStart
+    \resumeSubheading{Pizza (Web application to manage a restaurant's online orders)}{August 2022}
+    {Python, Django, Heroku, Bootstrap, Javascript \& Postgres}{\href{https://pinopizza.herokuapp.com}{Working link} ~ \href{https://github.com/satyamrs00/pizza}{Github repo}}
+    
+    \begin{description}[font=$\bullet$]
+        \item {Unique relational database for highly customizable orders with upto 5 toppings, 2 sizes, and multiple add-ons.}
+    \vspace{-3pt}
+        \item {Email notification for registration confirmation and order status updates using gmail smtp.}
+    \vspace{-3pt}
+        \item {Feature to view previous orders and order status. Also feature for 1-click reorder your favorite pizza.}
+    \end{description}
+    
+    \vspace{2pt}
+
+    \resumeSubheading{Network (Social Networking site)}{August 2022}
+    {Python, Django, Bootstrap, Javascript, DBMS, SQLite \& Heroku}{\href{https://thisnetwork.herokuapp.com}{Working link} ~ \href{https://github.com/satyamrs00/network}{Github repo}}
+    
+    \begin{description}[font=$\bullet$]
+        \item {Twitter-like social network website for making posts and following users}
+    \vspace{-3pt}
+        \item {Engineered features like following users, liking posts, editing posts, profile page, etc.}
+    \vspace{-3pt}
+        \item {Implemented pagination to load posts in batches of 10 and a responsive design for mobile devices.}
+    \end{description}
+        
+    \vspace{2pt}
+    
+    \resumeSubheading{Password Guy (A password manager web application)}{April 2022}
+    {Flask, Python, SQLite, Bootstrap \& Git}{\href{https://github.com/satyamrs00/password_guy}{Github repo}}
+    
+    \begin{description}[font=$\bullet$]
+        \item {Developed a password manager web application using Flask and SQLite.}
+    \vspace{-3pt}
+        \item {Support for multiple users with login and registration with features such as adding, deleting, viewing passwords.}
+    \end{description}
+    
+% \vspace{2pt}
+% \resumeSubItem{Drag-n-drop machine learning learning environment (Web Development, Machine Learning)}{Scratch like tool for implementing machine learning pipelines along with built in tutorial for each concept. Tech: Python, JavaScript (September '18)}
+% \vspace{2pt}
+% \resumeSubItem{Search Engine and Social Network(Web Development, Web Crawler, Search)}{Created from scratch a social network and a search engine based on the idea of integrating Facebook and Google. The launched website was among top 1000 websites in India during 2012-2013. Tech: PHP, MySQL, HTML, CSS, WebSockets, JavaScript, RSS, XML ( May '12)}
+\resumeSubHeadingListEnd
+\vspace{-3pt}
+% \section{Publications}
+% \resumeSubHeadingListStart
+% \resumeSubItem{Book: Deep Learning on Web (Web Development, Deep Learning)}{Work in Progress book to be published by Packt Publishing in late 2019. Tech: Django, Python, AWS, GCP, Azure (November '18)}
+% \vspace{2pt}
+% \resumeSubItem{Book: Deep Learning on Mobile Devices (Flutter App Development, Deep Learning)}{Work in Progress book to be published by Packt Publishing in late 2019. Tech: Flutter, Android, Firebase, TensorFlow, Python, Dart (December '18)}
+% \resumeSubHeadingListEnd
+% \vspace{-5pt}
+%-----------Awards-----------------
+% \section{Honors and Awards}
+% \begin{description}[font=$\bullet$]
+% \item {Awarded title of Intel Software Innovator - May, 2019}
+% \vspace{-5pt}
+% \item {Second Runner's Up at TCS EngiNx Engineering Project Innovation Content - September, 2018 }
+% \vspace{-5pt}
+% \item {Runner's Up at Facebook Developers Circle Hackathon - August, 2017}
+
+% \end{description}
+\vspace{-5pt}
+\section{Achievements}
+\begin{description}[font=$\bullet$]
+    \item {3 star at CodeChef with 1627 rating (highest)}
+    \vspace{-5pt}
+    \item {Scored rank 2 with my team at HackSquad which had 750+ team registrations - October, 2022}
+    \vspace{-5pt}
+    \item {Scored rank 4 in college at Codame Things - July, 2022}
+\end{description}
+
+\vspace{-5pt}
+\section{Certifications}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Relational Databases}{August 2022}
+    {freeCodeCamp}{\href{https://www.freecodecamp.org/certification/satyamrs00/relational-database-v8}{show credential}}
+
+    \resumeSubheading
+    {Responsive Web Design}{October 2022}
+    {freeCodeCamp}{\href{https://www.freecodecamp.org/certification/satyamrs00/responsive-web-design}{show credential}}
+    
+    \resumeSubheading
+    {Google Cloud Skill Badges (30 badges, 15 labs)}{July 2022}
+    {Google Cloud community India} {\href{https://www.cloudskillsboost.google/public_profiles/979efb3e-91bc-476f-ba38-d35c4879a1fa}{show credential}}
+
+    \resumeSubheading
+    {CS50x - Introduction to programming}{April 2022}
+    {Harvard University}{\href{https://certificates.cs50.io/5a9d3a4b-57f0-4d46-95fa-222159e1368f.pdf?size=letter}{show credential}}
+    
+\resumeSubHeadingListEnd
+
+\vspace{-5pt}
+\section{Positions of Responsibility}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {DevOps team member at GNU/Linux Users Club - IIIT Bhopal}{Bhopal, India}
+    {Encouraged 100s of students to use linux on daily basis.}{August 2022 - Present}
+    % Conducted online and offline technical \& soft-skills training impacting over 3000 students.
+    % \vspace{5pt}
+    % \vspace{10pt}\textbf{\large{Community Experience}}
+    % \resumeSubheading
+    % {Event Organizer at Google Developers Group Kolkata}{Kolkata, India}
+    % {Organized events, conducted workshops and delivered workshops reaching over 7000 developers.}{Jan 2018 - Present}
+\resumeSubHeadingListEnd
+
+% \vspace{-5pt}
+% \section{Socials}
+% \begin{description}[font=$\bullet$]
+%     \item {\href{https://github.com/satyamrs00}{Github}}
+%     \vspace{-5pt}
+%     \item {\href{https://www.linkedin.com/in/satyamrs00}{LinkedIn}}
+%     \vspace{-5pt}
+%     \item {\href{https://www.codechef.com/users/satyamrs00}{Codechef}}
+% \end{description}
+
+\end{document}
