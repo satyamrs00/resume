@@ -55,6 +55,12 @@
       \textit{#3} & \textit{#4} \\
     \end{tabular*}\vspace{-5pt}
 }
+\newcommand{\resumeSmallSubheading}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & #2 \\
+    \end{tabular*}\vspace{-8pt}
+}
 \newcommand{\resumeCertification}[3]{
   \item \small{
     \textbf{#1}{ - #2 \hfill #3 \vspace{-5pt}}
@@ -79,10 +85,10 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
     \textbf{{\LARGE Satyam Sagar}} & Email:~~\href{mailto:}{satyamsagar1711@gmail.com}\\
-    \href{https://satyamrs00.github.io}{Portfolio:~~satyamrs00.github.io} & Mobile:~~+91 979 8581 008 \\
-    \href{https://github.com/satyamrs00}{Github:~~satyamrs00} &  \href{https://linkedin.com/in/satyamrs00}{LinkedIn:~~satyamrs00}\\
-    \href{https://codechef.com/users/satyamrs00}{Codechef:~~satyamrs00} &
-    \href{https://leetcode.com/satyamrs00}{Leetcode:~~satyamrs00}\\
+    Portfolio:~~\href{https://satyamrs00.github.io}{https://satyamrs00.github.io} & Mobile:~~+91 979 8581 008 \\
+    Github:~~\href{https://github.com/satyamrs00}{https://github.com/satyamrs00} &  LinkedIn:~~\href{https://linkedin.com/in/satyamrs00}{https://linkedin.com/in/satyamrs00}\\
+    % Codechef:~~\href{https://codechef.com/users/satyamrs00}{https://satyamrs00} &
+    Leetcode:~~\href{https://leetcode.com/satyamrs00}{https://leetcode.com/satyamrs00}\\
 \end{tabular*}
 
 %-----------EDUCATION-----------------
@@ -91,7 +97,7 @@
     \resumeSubheading{Indian Institute of Information Technology}{Bhopal, India}
       {Bachelor of Technology - Information Technology;  GPA: 9.35/10}{December 2021 - June 2025}
       \vspace{-3pt}
-      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Data Structures and Algorithms, Object Oriented Programming}}}
+      {\scriptsize \textit{ \footnotesize{\newline{}\textbf{Courses:} Data Structures and Algorithms, Object Oriented Programming, Database Management Systems}}}
       %, Operating Systems,  Artificial Intelligence, Machine Learning, Networking, Databases
 \resumeSubHeadingListEnd
 
@@ -100,26 +106,27 @@
 \resumeSubHeadingListStart
 
     \resumeSubheading{GreyFeathers}{Dec 2022 - present}
-    {Frontend Developer Intern}{Remote}
+    {Frontend Developer Intern}{}
     \begin{description}[font=$\bullet$]
-    \item {Worked on 5 live projects, integrated them with backend and added interactivity with a design-first approach.}
+    \item {Worked on 3+ projects at various stages. Integrated the UI with server APIs. Used React and Redux for frontend.}
     \vspace{-4pt}  
-    \item {Responded to more than 60 client requests and resolved their issues and provided feature releases.}
+    \item {Resolved 60+ client requests. Provided support and maintenance for the existing projects.}
     \vspace{-4pt}
-    \item {Worked on the main website and converted more than 80 figma designs to React components.}
+    \item {Converted 100+ figma designs to React components using Material UI and Tailwind CSS and third party libraries.}
     \vspace{-4pt}
-    \item {Single handedly developed a web application that helps user track their expenses using React from scratch.}
-    % \item {Used Google OAuth 2.0 with JWT to authenticate users.}
+    \item {Implemented Google OAuth and JWT authentication. Used Trello for project management.}
+    \vspace{-4pt}
+    \item {Troubleshooted cross-browser compatibility and dependencies issues to increase the website's reach by 25\%.}
     \end{description}
 
     \resumeSubheading{JDMR Ischool}{Oct 2022 - Dec 2022}
-    {Web Developer Intern}{Remote}
+    {Web Developer Intern}{}
     \begin{description}[font=$\bullet$]
-		\item {Teamed with 2 guys to build a web application from scratch using Django to get user details.}
+		\item {Teamed up with 2 other interns to develop a Django application from scratch. Worked on 2 main projects.}
 		\vspace{-4pt}
-		\item {Developed and maintained the main website of the company including various bug fixes and feature updates.}
+		\item {Developed a clean and responsive UI using Bootstrap. Made use of Django templates and Jinja templating engine.}
 		\vspace{-4pt}
-		\item {Deployed the applications using DigitalOcean with Nginx server and Gunicorn and secured it using Let's Encrypt.}
+		\item {Deployed the applications using DigitalOcean with Nginx server and secured it using Let's Encrypt.}
     \end{description}
 \resumeSubHeadingListEnd
 
@@ -127,50 +134,50 @@
 \vspace{-5pt}
 \section{Projects}
 \resumeSubHeadingListStart
-    \resumeSubheading{Pizza (Web application to manage a restaurant's online orders)}{August 2022}
-    {Python, Django, Bootstrap, Javascript \& Postgres}{\href{https://pizza-uyud.onrender.com/}{Deployment} ~ \href{https://github.com/satyamrs00/pizza}{Github}}
+
+    \resumeSmallSubheading{\textbf{Pinocchio's Pizza - Django \textbar} ~\href{https://github.com/pizza/}{github} \textbar ~\href{https://pizza-uyud.onrender.com/}{demo}}{August 2022}
 
     
     \begin{description}[font=$\bullet$]
+        \item {Pinocchio's Pizza is a online front for a pizza shop. Supports online ordering, user management and order tracking.}
+    \vspace{-5pt}
         \item {Unique relational database for highly customizable orders with upto 5 toppings, 2 sizes, and multiple add-ons.}
     \vspace{-5pt}
-        \item {Email notification for registration confirmation and order status updates using gmail smtp.}
-    \vspace{-5pt}
-        \item {Feature to view previous orders and order status. Also feature for 1-click reorder your favorite order.}
+        \item {Supports email notifications using gmail smtp. Uses cloud storage via Cloudinary. Deployed on Render, Heroku.}
+    % \vspace{-5pt}
+        % \item {Feature to view previous orders and order status. Also feature for 1-click reorder your favorite order.}
     \end{description}
 
-    \vspace{-3pt}
-    
-    \resumeSubheading{Drum Machine (A drum-like react application)}{December 2022}
-    {React, Redux, Bootstrap, Netlify \& Git}{\href{https://drumzz.netlify.app}{Deployment} ~ \href{https://github.com/satyamrs00/drum}{Github}}
-    
-    \begin{description}[font=$\bullet$]
-        \item {Designed and Developed a clean and responsive UI using Bootstrap.}
     \vspace{-5pt}
-        \item {Support for multiple drum systems and volume control, with a feature to turn on/off the sound.}
+    
+    \resumeSmallSubheading{\textbf{Drumzz - React \textbar}~\href{https://github.com/satyamrs00/drum}{github} \textbar ~\href{https://drumzz.netlify.app}{demo}}{December 2022}
+
+    \begin{description}[font=$\bullet$]
+        \item {Drumzz is a keyboard drum kit react application. It is a fun application to play music using your keyboard.}
+    \vspace{-5pt}
+        \item {Support for multiple drum systems and volume control. Also supports mouse clicks and touch events.}
     \end{description}
 
-    \vspace{-3pt}
+    \vspace{-5pt}
     
-    \resumeSubheading{Password Guy (A password manager web application)}{April 2022}
-    {Flask, Python, SQLite, Bootstrap \& Git}{\href{https://github.com/satyamrs00/password_guy}{Github}}
+    \resumeSmallSubheading{\textbf{Password Guy - Flask \textbar}~\href{https://github.com/satyamrs00/password_guy}{github}}{April 2022}
     
     \begin{description}[font=$\bullet$]
-        \item {Developed a password manager web application using Flask and SQLite.}
+        \item {Password Guy is a password manager application built using Flask and SQLite.}
     \vspace{-5pt}
-        \item {Support for multiple users with login and registration with features such as adding, deleting, viewing passwords.}
+        \item {Supports user authentication and password encryption. Designed and developed the UI using Bootstrap.}
     \end{description}
     
 \resumeSubHeadingListEnd
 	    
 \vspace{-5pt}
-\section{Skills Summary}
+\section{Skills}
 	\resumeSubHeadingListStart
-	\resumeSubItem{Languages}{~~~~~~Python, JavaScript, SQL, Bash, C, C++, HTML, CSS}
-	\resumeSubItem{Frameworks}{~~~~Django, React, Flask}
-	\resumeSubItem{Tools}{~~~~~~~~~~~~~~Git, PostgreSQL, SQLite, Postman, MongoDB, Redux, Material UI}
-	\resumeSubItem{Platforms}{~~~~~~~Linux, Web, Windows, Heroku, GCP, DigitalOcean, Netlify}
-	\resumeSubItem{Soft Skills}{~~~~~~~Leadership, Collaboration, Management, Communication}
+	\resumeSubItem{Languages}{~~~~~~ Python, Javascript, SQL, Bash, C, C++, HTML, CSS}
+	\resumeSubItem{Frameworks}{~~~~ Django, React, Django REST Framework, Flask}
+	\resumeSubItem{Tools}{~~~~~~~~~~~~~~ Git, PostgreSQL, SQLite, Postman, MongoDB, Redux, Material UI}
+	\resumeSubItem{Platforms}{~~~~~~~ Linux, Web, Windows, Heroku, GCP, DigitalOcean, Netlify}
+	\resumeSubItem{Soft Skills}{~~~~~~~ Leadership, Collaboration, Management, Communication}
 
 \resumeSubHeadingListEnd
 
@@ -214,6 +221,11 @@
     \resumeSubheading
     {GNU/Linux Users Club - IIIT Bhopal}{Bhopal, India}
     {Core team member}{August 2022 - Present}
+
+    \begin{description}[font=$\bullet$]
+        \item {Organized 3 events and workshops on Linux and open source. Conducted 2 sessions on Linux and Git.}
+        \vspace{-4pt}
+    \end{description}
 \resumeSubHeadingListEnd
 
 \end{document}
